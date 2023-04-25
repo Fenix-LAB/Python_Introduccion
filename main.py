@@ -7,20 +7,39 @@
 # % (módulo)
 # ** (elevar a una potencia)
 
+# int nameVar = 5
+nameVar = 5
+varNueva = 10
+
+res = nameVar ** varNueva
+
+
+
 ################################### Variables ####################################
 
 # int
+varInt = 5
 # float
+varFloat = 0.5
 # bool
+varBool = False
 # str
+varString = 'Hola'
 # bytes
-#b = b"0x101"
+b = b"0x101"
+
+
 
 # Reasignacion de variables
+varInt = "Hola a todos"
 
 # Funcion type(), devuelve el tipo de dato de la variable
+# print(type(varInt))
+
 
 # Multiple asignacion
+a, c, d= 5, "Hola", 7.0
+# print(a, c, d)
 
 # Conversion
 
