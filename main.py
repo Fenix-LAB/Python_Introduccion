@@ -42,88 +42,108 @@ a, c, d= 5, "Hola", 7.0
 # print(a, c, d)
 
 # Conversion
+new = str(varFloat)
+
+str_1 = '150'
+newV_Int = int(str_1)
+#print("Tipo: ", type(newV_Int),"Valor ", newV_Int)
+
+# type(nombre_de_la_variable)
 
 ############################## Metodos de Strings ##############################
+txt = 'hola a todos, espero que no tengan dudas'
+#lis = ['hola', 'a', 'todos']
 
-# txt.upper()
-# txt.lower()
-# txt.capitalize()
-# txt.replace()
-# txt.split()
-# txt.join()
+# x = txt.upper()
+# x = txt.lower()
+# x = txt.capitalize()
+# x =  txt.replace("hola", "adios")
+# x = txt.split()
+# x =  lis.join()
+
+
+# print(x)
 
 ################################# Listas #####################################
 
 # Lista homogenea
+lis = [1, 2, 3, 4]
 
 # Lsta no homogenea
+lis2=[1, 'hola',7.0]
 
-# Indexar
-
-#lista = [3, 6, 2, 8, 1, 9, 4]
-
+lista = [3, 6, 2, 8, 1, 9, 4, 3]
+#print(lista)
 # Agregar un elemento al final de la lista
-#lista.append(7)
+# lista.append(7)
 
 # Agregar varios elementos al final de la lista
-#lista.extend([10, 11, 12])
+# lista.extend([10, 11, 12])
 
 # Agregar un elemento en una posición específica de la lista
-#lista.insert(2, 5)
+# lista.insert(2, 5)
+# .inster(pos, val)
 
 # Eliminar el primer elemento de la lista que coincide con un valor específico
-#lista.remove(9)
+# lista.remove(9)
 
 # Eliminar y devolver el elemento en una posición específica de la lista
-#elemento = lista.pop(4)
+# elemento = lista.pop(4)
 
 # Obtener la posición del primer elemento específico en la lista
-#posicion = lista.index(8)
+# posicion = lista.index(8)
 
 # Obtener el número de veces que un elemento específico aparece en la lista
-#conteo = lista.count(5)
+# conteo = lista.count(3)
 
 # Ordenar la lista en orden ascendente
-#lista.sort()
+# lista.sort()
 
 # Invertir el orden de los elementos en la lista
 #lista.reverse()
 
+#print(lista)
+#print(conteo)
+
 # Lista con Lista [1,2,3,[4,5,'cadena',['nueva cadena']]]
 
+Lista = [1,2,3,[4,5,'cadena',['nueva cadena']]]
+# print(Lista[3][3][0])
 ############################ Diccionarios  ###################################
 
-"""datos = {
+datos = {
     "nombre": "Juan",
     "apellido": "Pérez",
     "edad": 30,
     "profesión": "Ingeniero"
-}"""
+}
 
 # Indexar en diccionarios
 
-#diccionario = {'nombre': 'Juan', 'edad': 30, 'ciudad': 'Madrid'}
-# print(diccionario['nombre'])
+diccionario = {'nombre': 'Juan', 'edad': 30, 'ciudad': 'Madrid'}
+#print(diccionario['edad'])
 
 # Obtener una lista con todas las claves del diccionario
-#claves = diccionario.keys()
+# claves = diccionario.keys()
 
 # Obtener una lista con todos los valores del diccionario
-#valores = diccionario.values()
+# valores = diccionario.values()
 
 # Obtener el valor asociado a una clave específica
-#edad = diccionario.get('edad')
+# edad = diccionario.get('edad') # hacer esto es equivalente a diccionario['edad']
 
 # Eliminar una clave y su correspondiente valor del diccionario
 #del diccionario['ciudad']
 
 # Eliminar todos los elementos del diccionario
-#diccionario.clear()
+# diccionario.clear()
+#print(diccionario)
 
 ########################### Tuplas ####################################
 
 # Es un tipo de dato inmutable con elementos entre paréntesis separados por comas
-#t1 = (1,2,3)
+t1 = (1,2,3)
+# print(t1)
 
 ####################### Operadores logicos y condicional if ###############################
 
