@@ -148,21 +148,21 @@ t1 = (1,2,3)
 ####################### Operadores logicos y condicional if ###############################
 
 # Ejemplo de operadores lógicos en Python
-"""x = 12
-y = 10
-z = 15"""
+x = 1
+y = 16
+z = 15
 
 # Operador and
-"""if x < y and y < z:
-    print("x es menor que y y y es mayor que z")"""
+if x < y and y < z:
+    print("x es menor que y y y es mayor que z")
 
 # Operador or
-"""if x > y or y > z:
-    print("x es mayor que y o y es mayor que z")"""
+if x > y or y > z:
+    print("x es mayor que y o y es mayor que z")
 
 # Operador not
-"""if not(x == y):
-    print("x no es igual a y")"""
+if not(x == y):
+    print("x no es igual a y")
 
 # El condicional 'if' (si)
 """x=2
