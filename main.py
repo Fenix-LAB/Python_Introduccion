@@ -146,55 +146,91 @@ t1 = (1,2,3)
 # print(t1)
 
 ####################### Operadores logicos y condicional if ###############################
+# """
+# # Ejemplo de operadores lógicos en Python
+# x = 1
+# y = 16
+# z = 15
+#
+# # Operador and
+# if x < y and y < z:
+#     # print("x es menor que y y y es mayor que z")
+#
+# # Operador or
+# if x > y or y > z:
+#     # print("x es mayor que y o y es mayor que z")
+#
+# # Operador not
+# if not(x == y):
+#     # print("x no es igual a y")
+#
+# # El condicional 'if' (si)
+# """x=2
+# if x<3:
+#     print('Es menor')"""
+#
+# # Else
+# """x=4
+# if x<3:
+#     print('Es menor')
+# else:
+#     print('Es mayor')"""
+#
+# #Elif
+# """x=3
+# if x<3:
+#     print('Es menor')
+# elif x==3:
+#     print('Es igual')
+# else:
+#     print('Es mayor')
 
-# Ejemplo de operadores lógicos en Python
-x = 1
-y = 16
-z = 15
-
-# Operador and
-if x < y and y < z:
-    print("x es menor que y y y es mayor que z")
-
-# Operador or
-if x > y or y > z:
-    print("x es mayor que y o y es mayor que z")
-
-# Operador not
-if not(x == y):
-    print("x no es igual a y")
-
-# El condicional 'if' (si)
-"""x=2
-if x<3:
-    print('Es menor')"""
-
-# Else
-"""x=4
-if x<3:
-    print('Es menor')
-else:
-    print('Es mayor')"""
-
-#Elif
-"""x=3
-if x<3:
-    print('Es menor')
-elif x==3:
-    print('Es igual')
-else:
-    print('Es mayor')"""
+# Ciclos
 
 ############################# Bucle for #################################
+# for(int i = 0; i < 10; i++){}
+# str_2 = 'Hola como estan'
+# list_2 = [1, 'hola', 7.0]
+# for i in list_2:
+#     print(i)
 
+# for i in range(5, 10): # (v_inicial, v_final)
+#     print(i)
+#
+# for i in range(10): # (v_final)
+#     print(i)
+
+# for i in range(20, 51, 2): # (v_inicial, v_final, paso)
+#     print(i)
+# valor_final = 10
+# for i in range(1, valor_final):
+#     print(i)
 
 ############################# Bucle while #################################
+# while True:
+#     print("hola")
 
-
+# while (condicional):
 ############################# Funciones #####################################
-
-
+# def myFun(num):
+#     aux = num**2
+#     return aux
+#
+# def myfun2():
+#     print("Hola a todos")
+#
+# x = myFun(2)
+#
+# print(x)
+#
+# myfun2()
 ############################# Funciones Lambda ################################
 
 # fl = lambda var:var**2
+# print(fl(4))
+# print(fl(2))
+
+
+
 # x = lambda a, b, c : a + b + c
+# print(x(1,2,3))
