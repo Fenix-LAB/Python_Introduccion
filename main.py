@@ -13,8 +13,6 @@ varNueva = 10
 
 res = nameVar ** varNueva
 
-
-
 ################################### Variables ####################################
 
 # int
@@ -224,12 +222,13 @@ t1 = (1,2,3)
 # print(x)
 #
 # myfun2()
+
+# print(myFun(7.0))
 ############################# Funciones Lambda ################################
 
 # fl = lambda var:var**2
 # print(fl(4))
 # print(fl(2))
-
 
 
 # x = lambda a, b, c : a + b + c
